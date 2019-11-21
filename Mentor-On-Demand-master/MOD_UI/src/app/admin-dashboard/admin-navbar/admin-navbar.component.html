@@ -1,0 +1,85 @@
+<section   id="navbar">
+  <div  id="header">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      
+      <a class="navbar-brand ml-3" routerLink="/home" routerLinkActive="true">Mentor On Demand</a>
+     
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            
+         <a class="nav-link"> <button class="nav-link btn btn-md btn-primary text-center" type="submit" (click)="notification()" style="font-weight: bold;">Notification</button></a>
+      
+        
+  
+        <li class="dropdown nav-link"><a class="dropdown-toggle nav-link btn btn-md btn-info text-center" data-toggle="dropdown" >Dashboard <span class="caret"></span></a>
+          <ul class="dropdown-menu new">
+                  <li class="dropdown-item">
+                          <a routerLink="current-trainings-info" ><button class="rounded btn btn-sm">Current
+                              Trainings</button>
+                          </a>
+                      </li>
+                      <li class="dropdown-item">
+                          <a routerLink="completed-trainings-info" ><button class="rounded btn btn-sm">Completed
+                              Trainings</button>
+                          </a>
+                      </li>
+                      <li class="dropdown-item">
+                          <a routerLink="all-payments" ><button class="rounded btn btn-sm">
+                              Payments</button>
+                          </a>
+                      </li>
+                      <li class="dropdown-item">
+                          <a routerLink="add-block-user-mentor" ><button class="rounded btn btn-sm">
+                              Block</button>
+                          </a>
+                      </li>
+                      <li class="dropdown-item">
+                          <a routerLink="add-remove-technology" ><button class="rounded btn btn-sm">Modify
+                              Technology</button>
+                          </a>
+                      </li>
+          
+          </ul>
+        </li>
+        <a class="nav-link"> <button class="nav-link btn btn-md btn-danger text-center" type="submit" (click)="logout()" style="font-weight: bold;">Logout</button></a>   
+        </ul>
+      </div>
+    </nav>
+    <br/><br/><br/><br/><br/><br/><br/>
+    
+    
+    
+  </div>
+</section>
+<!-- <div class="bg-img">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+      <a class="navbar-brand" routerLinkActive="true" style="color: darkslategray;font-weight: bold">MentorOnDemand</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="/home" routerLinkActive="true"  style="color: blue;font-weight: bold">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </div>
+        <ul class="navbar-nav">
+   
+        </ul>
+        <a class="nav-link"> <button class="btn btn-sm btn-1" type="submit" (click)="notification()" style="font-weight: bold;">Notification</button></a>
+      
+        <a class="nav-link"> <button class="btn btn-sm btn-2" type="submit" (click)="logout()" style="font-weight: bold;">Logout</button></a>
+      </div>
+    </nav>
+  
+  </div> -->
+  

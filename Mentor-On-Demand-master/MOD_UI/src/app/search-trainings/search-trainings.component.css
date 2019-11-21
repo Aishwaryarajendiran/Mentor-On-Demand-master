@@ -1,0 +1,17 @@
+.btn-2{
+    background: rgb(33, 66, 104);
+     border-radius: 1.3rem;
+     width: 150px;
+     font-weight: bold;
+   }
+
+
+.my
+{   
+    background-image: url("../../assets/images/user.jpg");
+    min-height: 642px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
